@@ -5,12 +5,18 @@
     "packages/*"
   ],
   "devDependencies": {
-    "lerna": "^7.1.5"
+    "@nx/js": "^19.0.1",
+    "lerna": "^7.1.5",
+    "verdaccio": "^5.0.4"
   },
   "volta": {
     "node": "18.17.1"
   },
   "publishConfig": {
     "registry": "http://localhost:4873"
-  }
+  },
+  "nx": {
+    "includedScripts": []
+  },
+  "dependencies": {}
 }
