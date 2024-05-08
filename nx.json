@@ -42,6 +42,9 @@
       "dependsOn": [
         "^build"
       ]
+    },
+    "publish-packages": {
+      "dependsOn": ["build", "test"]
     }
   }
 }
